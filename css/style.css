@@ -1,0 +1,102 @@
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url(http://www.wildtextures.com/wp-content/uploads/2012/05/wildtextures-concrete-wall-background.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 20px;
+  font-family: "Homemade Apple", cursive;
+  font-size: 20px;
+  height: 100%;
+}
+
+.container-fluid {
+  min-height: 100%;
+  position: relative;
+}
+
+.paper {
+  background-image: url(http://jarrodyellets.com/images/paper.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  max-width: 450px;
+  min-height: 635px;
+  position: relative;
+  margin: 0 auto 20px auto;
+  padding-bottom: 15px;
+}
+
+.title {
+  padding-top: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+.mainQuote {
+  padding: 40px 50px 10px 50px;
+  height: 100%;
+}
+
+.writer {
+  text-align: right;
+  padding-top: 20px;
+}
+
+.links {
+  font-size: 0.8em;
+}
+
+.colorBlack {
+  color: #333;
+}
+
+.foot {
+  position: absolute;
+  text-align: center;
+  color: white;
+  left: 0;
+  bottom: 0;
+  font-family: Raleway;
+  font-size: 0.6em;
+  height: 15px;
+  width: 100%;
+  background: #232323;
+}
+
+#tweet {
+  position: absolute;
+  bottom: 7%;
+  right: 10%;
+}
+
+#getQuote {
+  position: absolute;
+  bottom: 7%;
+  left: 10%;
+}
+
+a:hover,
+a:focus {
+  color: #333;
+  text-decoration: none;
+}
+
+@media all and (max-width: 450px) {
+  body {
+    font-size: 16px;
+  }
+
+  .paper {
+    min-height: 500px;
+  }
+}
